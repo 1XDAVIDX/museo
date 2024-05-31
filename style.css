@@ -1352,5 +1352,14 @@
     .menu-toggle:checked + .menu-icon + .side-menu {
         width: 150px;
     }
+    .side-menu a,
+    .side-menu .close-btn {
+        padding: 10px 15px;
+        text-decoration: none;
+        font-size: 15px;
+        color: #818181;
+        display: block;
+        transition: color 0.3s;
+    }
 
 }
